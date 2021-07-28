@@ -1,0 +1,179 @@
+name: sambapos_test_skills_project
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  yaml: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/menu.yaml
+    - assets/images/cekoslavak-gunesi.jpg
+    - assets/images/coca-cola-kutu-330ml.jpg
+    - assets/images/damla-su.jpg
+    - assets/images/etli-yaprak-sarma-ve-yogurt.jpg
+    - assets/images/firinlanmis-tereyagli-mercimek-corbasi.jpg
+    - assets/images/hunkar-begendi.jpg
+    - assets/images/kirmizi-et-menu.jpg
+    - assets/images/pilic-piccata-ve-fettucine.jpg
+    - assets/images/venedik-soslu-kinoa-salatasi.jpg
+    - assets/images/zeytinyagli-brokoli.jpg
+    - assets/images/isvec-kofte.jpg
+    - assets/images/patates-puresi-yataginda-kofte.jpg
+    - assets/images/begendi-yataginda-kofte.jpg
+    - assets/images/izgara-kofte-ve-karisik-sebze.jpg
+    - assets/images/orman-kebabi.jpg
+    - assets/images/dana-kavurma-ve-sehriyeli-pilav.jpg
+    - assets/images/zerdecal-soslu-karisik-sebze.jpg
+    - assets/images/aci-soslu-patlicanli-fettucine.jpg
+    - assets/images/firinlanmis-beyaz-nohut.jpg
+    - assets/images/kiymali-ispanak-oturtma-ve-yogurt.jpg
+    - assets/images/kabak-kalye.jpg
+    - assets/images/veggie-lazanya.jpg
+    - assets/images/turlu.jpg
+    - assets/images/antep-usulu-karisik-dolma-ve-yogurt.jpg
+    - assets/images/kiymali-yesil-mercimek.jpg
+    - assets/images/soya-soslu-tavuklu-sebzeli-noodle.jpg
+    - assets/images/kori-soslu-mantarli-tavuk.jpg
+    - assets/images/pilav-ustu-firin-tavuk.jpg
+    - assets/images/izgara-tavuk-ve-karisik-sebze.jpg
+    - assets/images/somon-izgara.jpg
+    - assets/images/naneli-yogurt-corbasi.jpg
+    - assets/images/sutlu-brokoli-corbasi.jpg
+    - assets/images/zeytinyagli-bruksel-lahanasi.jpg
+    - assets/images/mini-karisik-sebze.jpg
+    - assets/images/balzamik-soslu-bugday-salata-mini.jpg
+    - assets/images/akdeniz-soslu-mercimek-salata-mini.jpg
+    - assets/images/soslu-izgara-sebze.jpg
+    - assets/images/thai-salata.jpg
+    - assets/images/pancar-salata.jpg
+    - assets/images/nohutlu-sehriyeli-pirinc-pilavi.jpg
+    - assets/images/domatesli-bulgur-pilavi.jpg
+    - assets/images/kasarli-patates-puresi.jpg
+    - assets/images/mini-icli-kofte.jpg
+    - assets/images/kadinbudu-kofte.jpg
+    - assets/images/ince-kiyim-saksuka.jpg
+    - assets/images/barbunya-pilaki.jpg
+    - assets/images/tereyagli-cevizli-eriste.jpg
+    - assets/images/baharatli-firin-patates.jpg
+    - assets/images/siyah-inci-dilim.jpg
+    - assets/images/cikolatali-sufle.jpg
+    - assets/images/kus-sutu.jpg
+    - assets/images/frambuazli-cheesecake.jpg
+    - assets/images/cikolatali-brownie.jpg
+    - assets/images/irmik-helvasi.jpg
+    - assets/images/cappy-portakal-suyu.jpg
+    - assets/images/cappy-seftali.jpg
+    - assets/images/cappy-visne-suyu.jpg
+    - assets/images/sutas-ayran-300ml.jpg
+    - assets/images/illy-latte-macchiato-pet-250ml.jpg
+    - assets/images/illy-caffe-macchiato-pet-250ml.jpg
+    - assets/images/fuse-tea-limon-kutu.jpg
+    - assets/images/fuse-tea-seftali.jpg
+    - assets/images/alpro-soya-sutu-sade.jpg
+    - assets/images/alpro-soya-sutu-cilekli.jpg
+    - assets/images/alpro-soya-sutu-cikolatali.jpg
+    - assets/images/found-elmaliandtarcinli-demlendirilmis-su.jpg
+    - assets/images/found-naneliandsalatalikli-demlendirilmis-su.jpg
+    - assets/images/found-limonlu-demlendirilmis-su-330ml.jpg
+    - assets/images/found-murver-cicekli-demlendirilmis-su-330ml.jpg
+    - assets/images/enjoy-smoothie-cilekandmuz-250ml.jpg
+    - assets/images/enjoy-smoothie-mangoandpassion-fruit.jpg
+    - assets/images/enjoy-sikma-portakal-suyu.jpg
+    - assets/images/fuse-tea-limon-cam-sise-250ml.jpg
+    - assets/images/fuse-tea-seftali-cam-sise-250ml.jpg
+    - assets/images/cappy-seftali-suyu-cam-sise-250ml.jpg
+    - assets/images/cappy-portakal-suyu-cam-sise-250ml.jpg
+    - assets/images/cappy-visne-suyu-cam-sise-250ml.jpg
+    - assets/images/coca-cola-light-kutu.jpg
+    - assets/images/coca-cola-zero-kutu.jpg
+    - assets/images/fanta-portakal-kutu.jpg
+    - assets/images/sprite-kutu.jpg
+    - assets/images/guarana-antarctica-gazli-icecek.jpg
+    - assets/images/coca-cola-light-cam-sise.jpg
+    - assets/images/coca-cola-cam-sise.jpg
+    - assets/images/coca-cola-zero-cam-sise.jpg
+    - assets/images/kirmizi-et-menu.jpg
+    - assets/images/beyaz-et-menu.jpg
+    - assets/images/sebzeli--etli-menu.jpg
+    - assets/images/diyet-menu.jpg
+    - assets/images/4-kisilik-menu-etli-yaprak-sarma.jpg
+    - assets/images/4-kisilik-menu-kori-soslu-tavuk.jpg
+    - assets/images/4-kisilik-menu-isvec-kofte.jpg
+    - assets/images/vejeteryan-menu.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
